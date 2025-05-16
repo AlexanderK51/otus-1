@@ -73,15 +73,15 @@ CMakeFiles/test_version.dir/test_version.cpp.o: CMakeFiles/test_version.dir/flag
 CMakeFiles/test_version.dir/test_version.cpp.o: ../test_version.cpp
 CMakeFiles/test_version.dir/test_version.cpp.o: CMakeFiles/test_version.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/smuser/otus#1/otus-1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_version.dir/test_version.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_version.dir/test_version.cpp.o -MF CMakeFiles/test_version.dir/test_version.cpp.o.d -o CMakeFiles/test_version.dir/test_version.cpp.o -c "/home/smuser/otus#1/otus-1/test_version.cpp"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_version.dir/test_version.cpp.o -MF CMakeFiles/test_version.dir/test_version.cpp.o.d -o CMakeFiles/test_version.dir/test_version.cpp.o -c "/home/smuser/otus#1/otus-1/test_version.cpp"
 
 CMakeFiles/test_version.dir/test_version.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_version.dir/test_version.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/smuser/otus#1/otus-1/test_version.cpp" > CMakeFiles/test_version.dir/test_version.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/smuser/otus#1/otus-1/test_version.cpp" > CMakeFiles/test_version.dir/test_version.cpp.i
 
 CMakeFiles/test_version.dir/test_version.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_version.dir/test_version.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/smuser/otus#1/otus-1/test_version.cpp" -o CMakeFiles/test_version.dir/test_version.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/smuser/otus#1/otus-1/test_version.cpp" -o CMakeFiles/test_version.dir/test_version.cpp.s
 
 # Object files for target test_version
 test_version_OBJECTS = \

@@ -73,15 +73,15 @@ CMakeFiles/helloworld_cli.dir/main.cpp.o: CMakeFiles/helloworld_cli.dir/flags.ma
 CMakeFiles/helloworld_cli.dir/main.cpp.o: ../main.cpp
 CMakeFiles/helloworld_cli.dir/main.cpp.o: CMakeFiles/helloworld_cli.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/smuser/otus#1/otus-1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/helloworld_cli.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld_cli.dir/main.cpp.o -MF CMakeFiles/helloworld_cli.dir/main.cpp.o.d -o CMakeFiles/helloworld_cli.dir/main.cpp.o -c "/home/smuser/otus#1/otus-1/main.cpp"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/helloworld_cli.dir/main.cpp.o -MF CMakeFiles/helloworld_cli.dir/main.cpp.o.d -o CMakeFiles/helloworld_cli.dir/main.cpp.o -c "/home/smuser/otus#1/otus-1/main.cpp"
 
 CMakeFiles/helloworld_cli.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/helloworld_cli.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/smuser/otus#1/otus-1/main.cpp" > CMakeFiles/helloworld_cli.dir/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/smuser/otus#1/otus-1/main.cpp" > CMakeFiles/helloworld_cli.dir/main.cpp.i
 
 CMakeFiles/helloworld_cli.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/helloworld_cli.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/smuser/otus#1/otus-1/main.cpp" -o CMakeFiles/helloworld_cli.dir/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/smuser/otus#1/otus-1/main.cpp" -o CMakeFiles/helloworld_cli.dir/main.cpp.s
 
 # Object files for target helloworld_cli
 helloworld_cli_OBJECTS = \

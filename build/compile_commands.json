@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/smuser/otus#1/otus-1/build",
+  "command": "/usr/bin/clang++  -I\"/home/smuser/otus#1/otus-1/build\" -g -Wall -Wextra -pedantic -Werror -std=gnu++14 -o CMakeFiles/helloworld.dir/lib.cpp.o -c \"/home/smuser/otus#1/otus-1/lib.cpp\"",
+  "file": "/home/smuser/otus#1/otus-1/lib.cpp"
+},
+{
+  "directory": "/home/smuser/otus#1/otus-1/build",
+  "command": "/usr/bin/clang++   -g -Wall -Wextra -pedantic -Werror -std=gnu++14 -o CMakeFiles/helloworld_cli.dir/main.cpp.o -c \"/home/smuser/otus#1/otus-1/main.cpp\"",
+  "file": "/home/smuser/otus#1/otus-1/main.cpp"
+},
+{
+  "directory": "/home/smuser/otus#1/otus-1/build",
+  "command": "/usr/bin/clang++ -DBOOST_ALL_NO_LIB -DBOOST_TEST_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK  -g -Wall -Wextra -pedantic -Werror -std=gnu++14 -o CMakeFiles/test_version.dir/test_version.cpp.o -c \"/home/smuser/otus#1/otus-1/test_version.cpp\"",
+  "file": "/home/smuser/otus#1/otus-1/test_version.cpp"
+}
+]
